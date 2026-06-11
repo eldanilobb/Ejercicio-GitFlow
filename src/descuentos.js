@@ -1,8 +1,12 @@
-function calcularTotal(precio, descuento) {
+function calcularPrecioFinal(precio, tipoCliente) {
   if (precio < 0) {
     throw new Error("El precio no puede ser negativo");
   }
-  return precio - descuento;
+  let total = precio;
+  if (tipoCliente === "estudiante") {
+    total -= precio * 0.15;
+  }
+  return total;
 }
 
-module.exports = { calcularTotal };
+module.exports = { calcularPrecioFinal };
