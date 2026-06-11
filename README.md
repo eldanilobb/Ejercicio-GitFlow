@@ -193,7 +193,7 @@ Por ejemplo, agrega una breve descripción del sistema en la siguiente sección:
 
 Escribe aquí una descripción breve del sistema:
 
-> Respuesta del estudiante: ...
+> Respuesta del estudiante: Este sistema es un módulo básico en Node.js encargado de calcular el precio final de una compra, aplicando descuentos de forma automática según el tipo de cliente (ej. 15% de descuento para estudiantes).
 
 Luego realice un commit:
 
